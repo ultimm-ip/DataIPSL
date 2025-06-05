@@ -26,10 +26,10 @@ Author: GrayGrids
         var logo = document.querySelector('.navbar-brand img')
         if (window.pageYOffset > sticky) {
           header_navbar.classList.add("sticky");
-          logo.src = 'assets/images/logo/GIPF_Logo.jpg';
+          logo.src = 'assets/images/ultim/ultim_logo.JPG';
         } else {
           header_navbar.classList.remove("sticky");
-          logo.src = 'assets/images/logo/GIPF_Logo.jpg';
+          logo.src = 'assets/images/ultim/ultim_logo.JPG';
         }
 
         // show or hide the back-top-top button
